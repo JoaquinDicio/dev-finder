@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 :root{
-  --main-color:#7D3C98;
-  --light-color:#A569BD;
-  --dark-color:#4A235A;
+  --main-color:#1F2A48;
+  --light-color:#0878F8;
+  --dark-color:#141C2F;
 }
 body{
-  background-color:#4A235A !important;
+  background-color:#141C2F !important;
 }
 div.app{
   min-height: 100vh;

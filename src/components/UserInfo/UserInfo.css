@@ -1,0 +1,30 @@
+img.avatar{
+    border-radius: 50%;
+    height: 150px;
+    width:150px;
+}
+div.user-info h4.profile-name{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1.7em;
+}
+div.user-info p, div.user-info h4,  div.user-info h5,  div.user-info h3{
+    color: #ffff;
+}
+div.user-info span.joined-span{
+    color:#959595;
+    font-size: 14px;
+    margin-right: 4px;
+}
+div.user-info div.social-info{
+    margin-top: 50px;
+    max-width: 80%;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    padding: 20px;
+    height: 120px;
+}
+div.social-info p.count-desc{
+    color: #959595;
+    margin-bottom: 5px;
+}
