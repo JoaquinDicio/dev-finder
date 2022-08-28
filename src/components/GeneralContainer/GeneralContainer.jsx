@@ -1,13 +1,19 @@
 import React, { useState, useEffect } from 'react'
 import './GeneralContainer.css'
-import Header from '../Header/Header'
 import UserInfo from '../UserInfo/UserInfo'
+import NoDataMsg from '../NoDataMsg/NoDataMsg'
 
-export default function GeneralContainer({DATA}) {
+export default function GeneralContainer({ DATA }) {
 
   return (
-    <div className='main-container col-md-10'>
-      <UserInfo DATA={DATA} />
+    <div className='d-flex justify-content-center align-items-center main-container col-md-10'>
+      {DATA==false?
+        <div className='d-flex justify-content-center justify-items-center'>
+          <NoDataMsg />
+        </div>
+        :
+        <UserInfo DATA={DATA} />
+      }
     </div>
   )
 }

@@ -16,6 +16,9 @@ input.searchBar{
     background-color:var(--main-color);
     color: #ffff;
 }
+button.btn-search .search-icon{
+    font-size: 1.6em;
+}
 input.searchBar:focus-visible{
     outline: none;
 }
@@ -25,6 +28,7 @@ button.btn-search{
     border-bottom-right-radius: 40px;
     height: 50px;
     border: none;
+    width:50px;
     color: #ffff;
     background-color: var(--light-color);
 }

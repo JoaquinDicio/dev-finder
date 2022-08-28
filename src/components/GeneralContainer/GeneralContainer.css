@@ -1,7 +1,12 @@
 div.main-container{
     background-color: var(--main-color);
-    height: 60vh;
+    min-height: 60vh;
     border-radius: 10px;
     padding: 60px;
     max-width: 900px;
+}
+@media (max-width:992px) {
+    div.main-container{
+        padding: 40px;
+    }
 }

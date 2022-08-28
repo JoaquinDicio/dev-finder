@@ -2,6 +2,7 @@ img.avatar{
     border-radius: 50%;
     height: 150px;
     width:150px;
+    margin-bottom: 30px;
 }
 div.user-info h4.profile-name{
     font-weight: bolder;
@@ -11,20 +12,50 @@ div.user-info h4.profile-name{
 div.user-info p, div.user-info h4,  div.user-info h5,  div.user-info h3{
     color: #ffff;
 }
+div.user-info p.joined{
+    text-align: right;
+}
 div.user-info span.joined-span{
     color:#959595;
     font-size: 14px;
     margin-right: 4px;
 }
 div.user-info div.social-info{
-    margin-top: 50px;
+    margin-top: 40px;
     max-width: 80%;
     background-color: var(--dark-color);
     border-radius: 10px;
     padding: 20px;
-    height: 120px;
+    min-height: 120px;
+}
+div.user-info p.bio{
+    text-align: left;
 }
 div.social-info p.count-desc{
     color: #959595;
     margin-bottom: 5px;
+}
+div.user-info .personal-info-icon{
+    color: #ffff;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+div.user-info div.personal-info{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+div.user-info .personal-info p{
+    display: inline-block;
+}
+
+@media (max-width:768px){
+    div.user-info p.bio{
+        text-align: center;
+    }
+    div.user-info h4.profile-name{
+        text-align: center;
+    }
+    div.user-info p.joined{
+        text-align: center;
+    }
 }

@@ -5,13 +5,12 @@ import {useState} from 'react'
 
 export default function Home() {
 let [searchInput, setSearchInput] = useState('')
-  let [DATA, SETDATA] = useState([])
+  let [DATA, SETDATA] = useState(false)
   //function to fetch github API
   function getUser(){
     fetch(`https://api.github.com/users/${searchInput}`).
       then((data) => data.json()).
-      then((res) => SETDATA(res),
-      console.log(DATA)).
+      then((res) => SETDATA(res)).
       catch(
         (error) => console.log(error)
       )
