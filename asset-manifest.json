@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dev-finder/static/css/main.2c3dadf1.css",
+    "main.js": "/dev-finder/static/js/main.e59332ec.js",
+    "index.html": "/dev-finder/index.html",
+    "main.2c3dadf1.css.map": "/dev-finder/static/css/main.2c3dadf1.css.map",
+    "main.e59332ec.js.map": "/dev-finder/static/js/main.e59332ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c3dadf1.css",
+    "static/js/main.e59332ec.js"
+  ]
+}
